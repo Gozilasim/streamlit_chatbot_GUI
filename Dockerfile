@@ -14,5 +14,5 @@ COPY . /app
 EXPOSE 8501
 
 
-CMD ["streamlit", "run", ".\chatbot_UI.py" ]
+CMD ["streamlit", "run", "chatbot_UI.py" ]
 

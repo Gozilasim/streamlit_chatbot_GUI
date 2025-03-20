@@ -2,7 +2,7 @@ from datetime import datetime
 from sqlalchemy.exc import SQLAlchemyError
 
 from sqlalchemy import asc, delete
-from llama_index.core.llms import ChatMessage
+from llama_index.llms import ChatMessage
 from typing import List
 
 from database.databseConnection import get_db
